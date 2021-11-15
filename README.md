@@ -9,8 +9,10 @@
 Install GG with deno
 
 ```bash
-  deno install --name gg --allow-net --allow-write url
+  deno install --name gg --allow-net --allow-write https://raw.githubusercontent.com/duyixian1234/gg/master/index.ts
 ```
+
+You can replace `gg` with other name you like.
     
 ## Features
 
@@ -23,7 +25,8 @@ Install GG with deno
 ## Usage/Examples
 
 ```bash
-gg linux visualstudiocode python
+$ mkdir my-project ; cd my-project
+$ gg linux visualstudiocode python
 ```
 
 

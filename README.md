@@ -9,7 +9,7 @@
 Install GG with deno
 
 ```bash
-  deno install --name gg --allow-net --allow-write https://raw.githubusercontent.com/duyixian1234/gg/master/index.ts
+  deno install --name gg --allow-net --allow-read --allow-write https://raw.githubusercontent.com/duyixian1234/gg/master/index.ts
 ```
 
 You can replace `gg` with other name you like.
